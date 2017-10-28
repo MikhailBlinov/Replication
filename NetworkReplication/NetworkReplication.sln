@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableSerializationLib", "..\TableSerializationLib\TableSerializationLib.csproj", "{0DE074B9-72FB-474D-8F8A-EB9F0381CBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClient", "..\TcpClient\TcpClient.csproj", "{C2541C87-56DF-404B-9047-9E918695C743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TctServer", "..\TctServer\TctServer.csproj", "{2B1ACDDB-5402-40E1-B7D5-DFBC13F6196F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B5D236D-05FB-4F54-87A6-ED05BB804919}"
+	ProjectSection(SolutionItems) = preProject
+		dirinfo.txt = dirinfo.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DE074B9-72FB-474D-8F8A-EB9F0381CBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE074B9-72FB-474D-8F8A-EB9F0381CBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE074B9-72FB-474D-8F8A-EB9F0381CBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE074B9-72FB-474D-8F8A-EB9F0381CBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2541C87-56DF-404B-9047-9E918695C743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2541C87-56DF-404B-9047-9E918695C743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2541C87-56DF-404B-9047-9E918695C743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2541C87-56DF-404B-9047-9E918695C743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B1ACDDB-5402-40E1-B7D5-DFBC13F6196F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B1ACDDB-5402-40E1-B7D5-DFBC13F6196F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B1ACDDB-5402-40E1-B7D5-DFBC13F6196F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B1ACDDB-5402-40E1-B7D5-DFBC13F6196F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
